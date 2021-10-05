@@ -1,8 +1,8 @@
 local FrameObject = script.Parent.Main
 local Open = false
 
-local PositionClosed = UDim2.new(-0.321, 0,0.23, 0)
-local PositionOpen = UDim2.new(0.339, 0,0.23, 0)
+local PositionClosed = UDim2.new("yourpos")
+local PositionOpen = UDim2.new("yourpos")
 
 local UserInputService = game:GetService("UserInputService")
 
